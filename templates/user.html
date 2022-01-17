@@ -25,12 +25,5 @@
 
 
 {% block scripts %}
-<script>
-    function changeText() {
-        document.getElementById("main-heading").innerHTML = "Button Moment";
-    }
-
-</script>
-
-
+<script src="{{ url_for('static', filename='js/source.js') }}"> </script>
 {% endblock %}
